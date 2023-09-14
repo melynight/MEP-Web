@@ -63,17 +63,20 @@
     display: block;
 }
 
-.carousel-inner:hover{
+#carouselExample:hover .carousel-inner {
     background-color: black;
-   
-   
 }
 
-.carousel-inner{
+.carousel-inner {
     transition: all 1s;
 }
 
-.carousel-item:hover{
+.carousel-item:hover {
     background-color: black;
     opacity: 0.55;
+}
+
+
+button{
+    background-color: black;
 }
