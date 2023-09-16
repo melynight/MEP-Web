@@ -29,7 +29,7 @@
 
 .imagen-menu {
     padding: 10px;
-    width: 50px;
+    width: 40px;
 }
 
 .imagen-menu:hover{
@@ -109,8 +109,8 @@ opacity: 0.55;
 
 .texto-pacto {
     position: absolute;
-    bottom: 0; /* Colocamos el texto en la parte inferior */
-    left: 0; /* Colocamos el texto en la parte izquierda */
+    bottom: 0; 
+    left: 0; 
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -120,27 +120,38 @@ opacity: 0.55;
 .texto-pacto h2{
     text-shadow: 2px 2px #6B7DDD;
     color: white;
+    font-size: 2.5rem;
 }
 
 .button-firma-ya{
     background-color: rgb(213, 247, 79);
     display: flex;
-    font-size: larger;
+    font-size: x-large;
     text-decoration: none;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
     flex-wrap: nowrap;
-    padding: 15px 30px;
+    padding: 26px 90px;
 }
 
 @media (max-width: 768px){
     .button-firma-ya{
         font-size: medium;
-        padding: 12px 15px;
+        padding: 16px 45px;
+    }
+
+    .texto-pacto h2 {
+        font-size: 2rem;
     }
 }
     
+@media (max-width: 576px){
+    .texto-pacto h2 {
+        font-size: 1.5rem;
+    }
+   
+}
 
 
 .button-firma-ya:hover{
