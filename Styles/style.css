@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* #573486 (violeta más claro)
+#201d4d (azul marino oscuro) */
+
+.encabezado {
+    background: #6939e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.contenedor-img {
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.logo {
+    width: 200px;
+}
+
+.imagen-menu {
+    padding: 10px;
+    width: 50px;
+}
+
+.imagen-menu:hover{
+    cursor: pointer;
+}
+
+.lateral-menu {
+    background-color: #d5f74f;
+    font-weight: 700;
+    position: absolute;
+    left: -400px;
+    height: 550px;
+    width: 300px;
+    transition: all 2s;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.contenedor-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.contenedor-links-ul-li {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor-links-ul-li-a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 20px;
+    display: block;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;  
+}
+
+.container-pacto{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px #d5f74f solid;
+    position: relative;
+    justify-content: space-between;
+}
+
+.container-img{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+}
+
+
+.container-img img:hover{
+
+transition: all 1.5s ease;
+background-color: black;
+opacity: 0.55;
+
+}
+
+.container-img img{
+    width: 100%;
+    height: auto;
+   
+}
+
+.texto-pacto {
+    position: absolute;
+    bottom: 0; /* Colocamos el texto en la parte inferior */
+    left: 0; /* Colocamos el texto en la parte izquierda */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.texto-pacto h2{
+    text-shadow: 2px 2px #6B7DDD;
+    color: white;
+}
+
+.button-firma-ya{
+    background-color: rgb(213, 247, 79);
+    display: flex;
+    font-size: larger;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    padding: 15px 30px;
+}
+
+@media (max-width: 768px){
+    .button-firma-ya{
+        font-size: medium;
+        padding: 12px 15px;
+    }
+}
+    
+
+
+.button-firma-ya:hover{
+
+background-color: #5edfff;
+cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+

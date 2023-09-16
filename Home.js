@@ -17,3 +17,28 @@ document.addEventListener('click', (e) => {
         divMenu.style.left = '-400px';
     }
 });
+
+$(document).ready(function() {
+    const carousel = $("#carouselExample");
+    const control_prev = $(".carousel-control-prev");
+    const control_next = $(".carousel-control-next");
+    const carousel_item = $(".carousel-item");
+
+    if(control_prev.hover)
+    (
+        function() {
+            carousel.find("img").css("opacity", "1");
+        }
+    );
+        if(control_next.hover)
+    (
+
+        function() {
+            carousel.find("img").css("opacity", "1");
+        }
+
+    )
+    else{
+        carousel_item.find("img").css("opacity", "0.55");
+    }
+});
