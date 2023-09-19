@@ -7,11 +7,14 @@
 #201d4d (azul marino oscuro) */
 
 .encabezado {
-    background: #6939e2;
+    background: #61318A;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    position: sticky;
+    z-index: 10;
+    top: 0;
 }
 
 
@@ -29,7 +32,7 @@
 
 .imagen-menu {
     padding: 10px;
-    width: 40px;
+    width: 32px;
 }
 
 .imagen-menu:hover{
@@ -37,11 +40,11 @@
 }
 
 .lateral-menu {
-    background-color: #d5f74f;
+    background-color: #00EFD4;
     font-weight: 700;
     position: absolute;
     left: -400px;
-    height: 550px;
+    height: 500px;
     width: 300px;
     transition: all 2s;
     z-index: 10;
@@ -62,7 +65,8 @@
 
 .contenedor-links-ul-li-a {
     text-decoration: none;
-    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
     padding: 20px;
     display: block;
     color: black;
@@ -78,7 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 3px #d5f74f solid;
+    border-top: 3px #D4FF00 solid;
     position: relative;
     justify-content: space-between;
 }
@@ -124,9 +128,10 @@ opacity: 0.55;
 }
 
 .button-firma-ya{
-    background-color: rgb(213, 247, 79);
+    background-color: #D4FF00;
     display: flex;
     font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -160,9 +165,74 @@ background-color: #5edfff;
 cursor: pointer;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
+    font-weight: 1000;
+    padding: 6px 0;
 }
+
+footer{
+    background-color: #61318A;
+    width: 100%;
+    height: 200px;
+}
+
+.contenedor-footer{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    
+}
+
+.contenedor-contacto{
+    font-size: 10px;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.contenedor-contacto h1, .contenedor-contacto h2 {
+
+    font-family: 'Montserrat', sans-serif;
+
+   
+  
+}
+
+.contenedor-rrss{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.icons-rrss img{
+    width: 32px;
+    height: auto;
+}
+
+.email{
+    font-family: 'Montserrat', sans-serif;
+    color: #DDEB00 ;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    padding: 10px;
+  
+
+}
+.email:hover{
+   
+   opacity: 0.70;
+
+}
+
+
 
 
