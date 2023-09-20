@@ -6,6 +6,11 @@
 /* #573486 (violeta más claro)
 #201d4d (azul marino oscuro) */
 
+
+
+
+
+
 .encabezado {
     background: #61318A;
     display: flex;
@@ -175,36 +180,36 @@ a {
 footer{
     background-color: #61318A;
     width: 100%;
-    height: 200px;
+    height: 248px;
 }
 
 .contenedor-footer{
     display: flex;
-    height: 200px;
+    height: 222px;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 
 .contenedor-contacto{
-    font-size: 10px;
-    width: 50%;
+    font-size: 11px;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
+    margin-top: 15px;
     
 }
 
-.contenedor-contacto h1, .contenedor-contacto h2 {
+.contenedor-contacto h1 {
 
     font-family: 'Montserrat', sans-serif;
-
-   
-  
+    font-size: 18px;
+    color: #5edfff;
 }
 
 .contenedor-rrss{
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,6 +232,21 @@ footer{
   
 
 }
+
+.web-mep{
+    font-family: 'Montserrat', sans-serif;
+    color: #DDEB00 ;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    padding: 10px;
+
+}
+
+.web-mep:hover{
+    opacity: 0.70;
+}
+
 .email:hover{
    
    opacity: 0.70;

@@ -19,26 +19,14 @@ document.addEventListener('click', (e) => {
 });
 
 $(document).ready(function() {
-    const carousel = $("#carouselExample");
-    const control_prev = $(".carousel-control-prev");
-    const control_next = $(".carousel-control-next");
-    const carousel_item = $(".carousel-item");
+ const button = $(".button-firma-ya");
 
-    if(control_prev.hover)
-    (
-        function() {
-            carousel.find("img").css("opacity", "1");
-        }
-    );
-        if(control_next.hover)
-    (
+ button.click(function(){
 
-        function() {
-            carousel.find("img").css("opacity", "1");
-        }
+window.open("https://drive.google.com/file/d/14BJRo-4ccJtPsZRs3VefswFfxTZDFfxV/view?usp=sharing", "_blank");
 
-    )
-    else{
-        carousel_item.find("img").css("opacity", "0.55");
-    }
+
+ });
+
+
 });
