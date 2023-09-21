@@ -12,7 +12,7 @@
 
 
 .encabezado {
-    background: #61318A;
+    background: pink;
     display: flex;
     justify-content: space-between;
     align-items: center;
