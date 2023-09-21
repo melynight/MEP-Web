@@ -118,127 +118,44 @@ body {
 
 .texto-proyecto p{
     color: #fff;
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
 
-}
-
-@media (max-width: 1365px) {
-
-    .texto-proyecto p{
-        color: #fff;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.2em;
-    
-    }
-    
 }
 
 @media (max-width: 1100px) {
 
-    .texto-proyecto p{
-        color: #fff;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.1em;
-    
+    .container-proyecto{
+     
+        height: 30em;
     }
     
 }
 
-@media (max-width: 990px) {
+@media (max-width: 547px) {
 
-    .texto-proyecto p{
-        color: #fff;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1em;
-    
+    .container-proyecto{
+     
+        height: 211vh;
     }
-    
-}
 
-@media (max-width: 915px) {
-
-    .texto-proyecto p{
-        color: #fff;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 0.9em;
-    
+    .texto-proyecto{
+        width: 80%;
+        height: auto;
     }
-    
-}
-
-@media (max-width: 819px) {
 
     .texto-proyecto p{
-       
-        font-size: 0.8em;
-    
+
+        font-size: 2.3em;
+
+
     }
 
     
-.container-proyecto{
-   
-    height: 20em;
-  
-}
     
 }
 
-@media (max-width: 732px) {
-
-    .texto-proyecto p{
-       
-        font-size: 0.7em;
-    
-    }
-
-    
-.container-proyecto{
-   
-    height: 20em;
-  
-}
-    
-}
-
-@media (max-width: 644px) {
-
-    .texto-proyecto p{
-      
-        font-size: 0.6em;
-    
-    }
-
-    
-.container-proyecto{
-   
-    height: 18em;
-  
-}
-    
-}
-
-@media (max-width: 550px) {
-
-    .texto-proyecto p{
-      
-        font-size: 0.55m;
-    
-    }
-
-    
-.container-proyecto{
-   
-    height: 16em;
-  
-}
-    
-}
 
 .container-pacto{
     width: 100%;
@@ -286,7 +203,7 @@ opacity: 0.55;
 }
 
 .texto-pacto h2{
-    text-shadow: 2px 2px #6B7DDD;
+    text-shadow: 2px 2px #61318A;
     color: white;
     font-size: 2.5rem;
 }
@@ -365,7 +282,7 @@ footer{
 
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: #5edfff;
+    color: #fff;
 }
 
 .contenedor-rrss{
@@ -403,12 +320,14 @@ footer{
 }
 
 .web-mep:hover{
-    opacity: 0.70;
+    
+    color: #5edfff;
 }
 
 .email:hover{
    
-   opacity: 0.70;
+  
+   color: #5edfff;
 
 }
 
