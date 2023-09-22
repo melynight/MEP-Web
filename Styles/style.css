@@ -10,9 +10,11 @@
     align-items: center;
     width: 100%;
     position: sticky;
-    z-index: 10;
     top: 0px;
+    height: 80px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0.5rem 1rem, rgba(255, 255, 255, 0.15) 0px -1px 0px inset;
+    z-index: 1000;
+   
 }
 
 .slider-container li {
@@ -28,7 +30,7 @@
 }
 
 .logo {
-    width: 200px;
+    height: 65px;
 }
 
 .imagen-menu {
@@ -80,7 +82,7 @@
 
 .contenedor-links-ul-li-a {
     text-decoration: none;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     padding: 20px;
     display: block;
@@ -88,7 +90,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -337,6 +339,14 @@ a {
     font-size: 3.7vh;
 }
 
+
+#infografia{
+margin: 86px 0;
+padding: 40px 0;
+background: rgb(40,208,201);
+background: linear-gradient(90deg, rgba(40,208,201,1) 0%, rgba(82,124,190,1) 29%, rgba(83,52,207,1) 54%, rgba(103,0,204,1) 95%);
+
+}
 
 footer {
     background-color: rgb(97, 49, 138);

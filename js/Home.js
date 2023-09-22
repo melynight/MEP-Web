@@ -19,6 +19,8 @@ $(document).ready(function() {
 
  const button = $(".button-firma-ya");
  const textoPacto = $(".texto-proyecto-2");
+ const logo = document.querySelector(".logo");
+ const menuOpener = document.querySelector(".imagen-menu");
 
  button.click(function(){
 
@@ -41,4 +43,20 @@ $(document).ready(function() {
             }
         );
 */
+window.addEventListener('scroll', function() {
+
+    const encabezado = document.querySelector('.encabezado');
+
+    if (window.scrollY > 100) {
+        logo.style.transition = "transform 0.5s ease, height 0.5s ease";
+        logo.style.height = '40px';
+        encabezado.style.height = '70px';
+        menuOpener.style.height = '28px';
+
+    } else {
+        logo.style.height = '60px';
+        encabezado.style.height = '80px';
+    }
+});
+
 });
