@@ -1,21 +1,18 @@
 const body = document.querySelector(".body");
-const logo = document.querySelector(".imagen-menu");
-const divMenu = document.querySelector(".lateral-menu");
+const menuOpener = document.querySelector(".imagen-menu");
+const menu = document.querySelector(".lateral-menu");
 
-logo.addEventListener('click', (e) => {
-    e.stopPropagation();
-    console.log("click")
-    // divMenu.style.width = "100%";
-    // divMenu.style.height = "100%";
-    divMenu.style.left = '0'; // Nueva posición en X
-    divMenu.style.top = '0'; // Nueva posición en X
+// Detecta cuando abrir y cuando cerrar el menu
+menuOpener.addEventListener('click', (e) => {
+    if (menu.style.left == '0px') // si lo estaba mostrando
+        menu.style.left = '-400px'; // lo esconde
+    else if (menu.style.left == '-400px' || menu.style.left == '')
+        menu.style.left = '0px'; // lo muestra
 });
 
-// Detectar clic fuera del elemento para restablecer la posición
 document.addEventListener('click', (e) => {
-    if (e.target != divMenu) {
-        divMenu.style.left = '-400px';
-    }
+    if (e.target != menuOpener)
+        menu.style.left = '-400px'; // lo esconde
 });
 
 $(document).ready(function() {
@@ -44,5 +41,4 @@ $(document).ready(function() {
             }
         );
 */
-
 });
