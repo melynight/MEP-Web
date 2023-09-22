@@ -53,8 +53,8 @@
     position: absolute;
     top: 0px;
     left: -400px;
-    margin-top: 95px;
-    height: 500px;
+    margin-top: 80px;
+    height: 400px;
     width: 300px;
     transition: all 0.5s ease 0s;
     z-index: 10;
