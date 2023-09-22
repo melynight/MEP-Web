@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-}  
+}
 
 .encabezado {
     background: rgb(97, 49, 138);
@@ -91,52 +91,59 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+#proyecto {
+    height: auto;
+}
+
 .container-proyecto {
-    display: flex;
     width: 100%;
-    height: 45vh;
+    height: inherit;
+    background-color: blue;
+
+    /* height: 45vh;
     margin: 0px auto;
     flex-flow: column wrap;
-    align-content: center;
+    align-content: center; */
 }
 
-.container-img-proyecto {
-    display: flex;
-    width: 100%;
-    height: inherit;
-    position: absolute;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.container-img-proyecto img {
-    width: 100%;
-    height: inherit;
-}
-
-.texto-proyecto {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-}
-
-.texto-proyecto p {
-    color: white;
-    text-align: left;
-    font-family: Montserrat, sans-serif;
-    font-size: 3.5vh;
-}
-
-.texto-proyecto-2 {
+.container-texto-proyecto-1 {
+    height: 60vh;
     display: flex;
     align-items: center;
-    background: rgb(94, 223, 255);
-    width: 100%;
-    height: auto;
-    padding: 50px 0px;
-    border-top: 3px solid rgb(212, 255, 0);
     justify-content: center;
+    background-image:  url("/Imagenes/Banner.jpg");
+    border-bottom: 3px solid rgb(212, 255, 0);
+}
+
+/* .container-texto-proyecto-2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+} */
+
+.texto {
+    color: #eee;
+    font-size: 2.5rem;
+    width: 80%;
+    margin: 0 auto;
+    list-style: 3px;
+}
+
+.container-texto-proyecto-2 {
+    /* display: flex;
+    align-items: center;*/
+    background: rgb(94, 223, 255);
+    /* width: 100%;  */
+    height: 35vh;
+    /* padding: 50px 0px; */
+    /* border-top: 3px solid rgb(212, 255, 0);
+    justify-content: center; */
+    display: flex;
+    align-items: center;
 }
 
 .texto-proyecto-2 p {
@@ -207,23 +214,91 @@ body {
     padding: 26px 90px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .button-firma-ya {
         font-size: medium;
         padding: 16px 45px;
     }
-
-    .texto-pacto h2 {
-        font-size: 2rem;
+    .container-texto-proyecto-1 {
+        height: 100vh;
+    }
+    .texto{
+        font-size: 2.9rem;
+    }
+    
+    .container-texto-proyecto-2 {
+        height: 100vh;
     }
 }
+
+ 
+@media (max-width: 768px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+    .container-texto-proyecto-1{
+        height: 100vh;
+    }
+
+    .container-texto-proyecto-2{
+        height: 100vh;
+    }
+    .texto-pacto h2 {
+        font-size: 1.5rem;
+    }
+    .texto{
+        font-size: 2.7rem;
+
+    }
+} 
 
 @media (max-width: 576px) {
     .texto-pacto h2 {
         font-size: 1.5rem;
     }
+    .container-texto-proyecto-1{
+        height: 100vh;
+    }
+
+    .container-texto-proyecto-2{
+        height: 100vh;
+    }
+    .texto{
+        font-size: 2.6rem;
+    }
 }
 
+@media (max-width: 528px) {
+    .texto-pacto h2 {
+        font-size: 1rem;
+    }
+    .container-texto-proyecto-1{
+        height: 100vh;
+    }
+
+    .container-texto-proyecto-2{
+        height: 100vh;
+    }
+    .texto{
+        font-size: 2.4rem;
+    }
+}
+@media (max-width: 446px) {
+    .texto-pacto h2 {
+        font-size: 1rem;
+    }
+    .container-texto-proyecto-1{
+        height: 100vh;
+    }
+
+    .container-texto-proyecto-2{
+        height: 100vh;
+    }
+    .texto{
+        font-size: 2.2rem;
+    }
+}
 .button-firma-ya:hover {
     background-color: rgb(94, 223, 255);
     cursor: pointer;
