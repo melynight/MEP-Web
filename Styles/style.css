@@ -4,7 +4,7 @@
 }
 
 .encabezado {
-    background: rgb(97, 49, 138);
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +101,7 @@ body {
 .container-proyecto {
     width: 100%;
     height: auto;
-    background-color: blue;
+    background-color: rgb(212, 255, 0);
     /* height: 45vh;
     margin: 0px auto;
     flex-flow: column wrap;
@@ -114,7 +114,7 @@ body {
     align-items: center;
     justify-content: center;
     background-image:  url("/Imagenes/Banner.jpg");
-    border-bottom: 3px solid rgb(212, 255, 0);
+    border-bottom: 3px solid  rgb(97, 49, 138);
 }
 
 /* .container-texto-proyecto-2 {
@@ -135,20 +135,18 @@ body {
 }
 
 .container-texto-proyecto-2 {
-    background: rgb(94, 223, 255);
-    /* width: 100%;  */
+    background: rgb(212, 255, 0);
     height: 35vh;
-    /* padding: 50px 0px; */
-    /* border-top: 3px solid rgb(212, 255, 0);
-    justify-content: center; */
+    justify-content: center; 
     display: flex;
     align-items: center;
+    border-bottom: 3px solid  rgb(97, 49, 138);
 }
 
-.texto-proyecto-2 p {
+.texto-pacto-2{
     text-align: left;
     font-family: Montserrat, sans-serif;
-    color: white;
+    color:  rgb(97, 49, 138);
     padding: 50px;
     font-size: 3.7vh;
     font-weight: 300;
@@ -160,7 +158,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 3px solid rgb(212, 255, 0);
     position: relative;
     justify-content: space-between;
 }
@@ -208,9 +205,17 @@ body {
     text-decoration: none;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin: 50px;
     flex-wrap: nowrap;
-    padding: 26px 90px;
+    padding: 7px 90px;
+}
+
+
+@media (max-width: 1684px) {
+
+        .contenedor-mosaico{
+            display: none;
+    } 
 }
 
 @media (max-width: 1200px) {
@@ -234,6 +239,10 @@ body {
         height: auto;
         align-items:inherit;
     }
+
+    .texto-infografia p{
+        font-size: 2.3rem;
+     }
 }
 
  
@@ -320,14 +329,14 @@ a {
     text-decoration: none;
     color: black;
     font-weight: 1000;
-    padding: 6px 0px;
+    padding: 6px 3px;
 }
 
 .texto-pacto-dei {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(212, 255, 0);
+    background-color: rgb(97, 49, 138);
     width: 100%;
 }
 
@@ -335,17 +344,58 @@ a {
     padding: 20px;
     font-family: Montserrat, sans-serif;
     margin: 30px 50px;
-    color: black;
+    color: rgb(221, 235, 0);
     font-size: 3.7vh;
 }
 
 
 #infografia{
-margin: 86px 0;
+margin: 0px;
 padding: 40px 0;
-background: rgb(40,208,201);
-background: linear-gradient(90deg, rgba(40,208,201,1) 0%, rgba(82,124,190,1) 29%, rgba(83,52,207,1) 54%, rgba(103,0,204,1) 95%);
 
+}
+
+.texto-infografia{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.texto-infografia p{
+
+    font-family: Montserrat, sans-serif;
+    font-size: 2.3rem;
+    padding: 30px 62px;
+    color: rgb(97, 49, 138);
+}
+
+.container-infografia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenedor-mosaico{
+
+}
+
+.swiffy-slider {
+    margin: auto 0;
+    width: 700px;
+}
+
+.slider-container li img{
+    max-width: 100%;
+    max-height: 86vh;
+}
+
+
+@media screen and (max-width: 576px) {
+    .swiffy-slider {
+        width: auto;
+    }
 }
 
 footer {
@@ -414,13 +464,3 @@ footer {
     color: rgb(94, 223, 255);
 }
 
-.swiffy-slider {
-    margin: 0 auto;
-    width: 600px;
-}
-
-@media screen and (max-width: 576px) {
-    .swiffy-slider {
-        width: auto;
-    }
-}
