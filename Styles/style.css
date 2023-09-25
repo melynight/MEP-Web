@@ -151,7 +151,7 @@ body {
     font-family: Montserrat, sans-serif;
     color: rgb(97, 49, 138);
     padding: 50px;
-    font-size: 4.1vh;
+    font-size: 3.7vh;
     font-weight: 300;
 }
 
@@ -201,7 +201,7 @@ body {
 }
 
 .button-firma-ya {
-    background-color: #D4FF00;
+    background-color: rgb(212, 255, 0);
     display: flex;
     font-size: x-large;
     font-family: Montserrat, sans-serif;
@@ -218,7 +218,7 @@ body {
     height: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1584px) {
 
     .contenedor-mosaico {
         display: none;
@@ -287,7 +287,6 @@ body {
     }
     .pacto-img-responsive{
         display: block;
-        padding: 10px;
     }
 }
 
@@ -365,15 +364,11 @@ body {
     cursor: pointer;
 }
 
-.button-firma-ya a{
-    color: black;
-}
-
 a {
     text-decoration: none;
-    color: #aaa;
+    color: black;
     font-weight: 1000;
-    padding: 3px 4px;
+    padding: 6px 3px;
 }
 
 .texto-pacto-dei {
@@ -419,9 +414,9 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
+.contenedor-mosaico {}
 
 .swiffy-slider {
     margin: auto 0;
@@ -444,12 +439,6 @@ footer {
     background-color: rgb(97, 49, 138);
     width: 100%;
     height: 274px;
-}
-
-.logo-footer{
-    height: auto;
-    width: 170px;
-    text-align: center;
 }
 
 .contenedor-footer {
@@ -475,21 +464,18 @@ footer {
     justify-content: space-between;
     flex-direction: column;
     margin-top: 15px;
-    align-items: center;
 }
 
 .contenedor-contacto h1 {
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     color: rgb(255, 255, 255);
-    margin-bottom: 15px;
 }
 
 .contenedor-rrss {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
 }
 
 .icons-rrss img {
@@ -499,26 +485,27 @@ footer {
 
 .email {
     font-family: Montserrat, sans-serif;
-    color: #ffff;
+    color: rgb(221, 235, 0);
     text-decoration: none;
     font-size: 18px;
     transition: all 0.5s ease 0s;
-    margin-top: 10px;
+    padding: 10px;
 }
 
 .web-mep {
     font-family: Montserrat, sans-serif;
-    color: #ffff;
+    color: rgb(221, 235, 0);
     text-decoration: none;
     font-size: 18px;
     transition: all 0.5s ease 0s;
+    padding: 10px;
 }
 
 .web-mep:hover {
-    color: #D4FF00;
+    color: rgb(94, 223, 255);
 }
 
 .email:hover {
-    color: #D4FF00;
+    color: rgb(94, 223, 255);
 }
 
