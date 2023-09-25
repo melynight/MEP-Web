@@ -98,6 +98,9 @@ body {
     height: auto;
 }
 
+.pacto-img-responsive{
+    display: none;
+}
 .container-proyecto {
     width: 100%;
     height: auto;
@@ -276,8 +279,15 @@ body {
 
     }
 
-    .contenedor-img img {
+    /* .contenedor-img img {
         height: 54px;
+    } */
+    .pacto-img-desktop{
+        display: none;
+    }
+    .pacto-img-responsive{
+        display: block;
+        padding: 10px;
     }
 }
 
@@ -321,6 +331,7 @@ body {
         font-size: 2.4rem;
         margin: 25px;
     }
+    
 }
 
 @media (max-width: 446px) {
@@ -346,6 +357,7 @@ body {
     .contenedor-img img {
         height: 54px;
     }
+    
 }
 
 .button-firma-ya:hover {
@@ -497,3 +509,4 @@ footer {
 .email:hover {
     color: rgb(94, 223, 255);
 }
+
