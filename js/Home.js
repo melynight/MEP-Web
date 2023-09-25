@@ -1,8 +1,7 @@
 const menuOpener = document.querySelector(".imagen-menu");
 const menu = document.querySelector(".lateral-menu");
-
-
 const contenedorImg = document.querySelector(".container-img");
+const mosaico = document.querySelector(".contenedor-mosaico");
 
 // Detecta cuando abrir y cuando cerrar el menu
 menuOpener.addEventListener('click', (e) => {
@@ -22,4 +21,9 @@ document.addEventListener('click', (e) => {
 contenedorImg.addEventListener('click', (e) => {
             window.open('https://drive.google.com/file/d/14BJRo-4ccJtPsZRs3VefswFfxTZDFfxV/view?usp=sharing', '_blank');
 });
+
+mosaico.addEventListener('click', (e) => {
+    window.open('https://drive.google.com/drive/folders/1flWp-hR7ECWpv-Tzygbi3BDyfzoDcIkq?usp=sharing', '_blank');
+});
+
            
