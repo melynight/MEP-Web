@@ -43,6 +43,8 @@
     display: flex;
 }
 
+
+
 .imagen-menu:hover {
     cursor: pointer;
 }
@@ -174,6 +176,13 @@ body {
     background-color: black;
 }
 
+.container-img a{
+    width: inherit;
+    height: inherit;
+    padding: 0
+
+}
+
 .container-img img:hover {
     transition: all 1.5s ease 0s;
     background-color: black;
@@ -249,6 +258,7 @@ body {
         align-items: inherit;
     }
 
+
     .texto-infografia p {
         font-size: 2.3rem;
     }
@@ -285,6 +295,12 @@ body {
     .pacto-img-desktop{
         display: none;
     }
+    .container-img a {
+       
+        height: auto;
+        
+    }
+
     .pacto-img-responsive{
         display: block;
     }
@@ -298,6 +314,12 @@ body {
 
     .container-texto-proyecto-2 {
         height: auto;
+    }
+
+    .container-img a {
+       
+        height: auto;
+        
     }
 
     .texto {
