@@ -266,6 +266,10 @@ body {
         margin: 25px;
 
     }
+
+   .contenedor-img img{
+    height: 60px;
+    }
 } 
 
 @media (max-width: 576px) {
@@ -284,6 +288,9 @@ body {
     .texto-pacto h2 {
         font-size: 1.7rem;
     }
+    .contenedor-img img{
+        height: 60px;
+        }
 }
 
 @media (max-width: 528px) {
@@ -319,6 +326,9 @@ body {
         font-size: 2.2rem;
         margin: 25px;
     }
+    .contenedor-img img{
+        height: 60px;
+        }
 }
 .button-firma-ya:hover {
     background-color: rgb(94, 223, 255);
