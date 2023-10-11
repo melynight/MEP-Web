@@ -127,6 +127,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -253,9 +254,11 @@ body {
     text-decoration: none;
     align-items: center;
     justify-content: center;
-    margin: 50px;
+    margin-top: 8px;
+    margin-bottom: 20px;
     flex-wrap: nowrap;
     padding: 5px 90px;
+    border-radius: 50px;
 }
 
 .button-firma-ya:hover {
@@ -284,9 +287,8 @@ a {
 
 .texto-pacto-dei p {
     text-align: center;
-    padding: 20px;
+    padding: 30px 0;
     font-family: Montserrat, sans-serif;
-    margin: 30px 50px;
     color: rgb(221, 235, 0);
     font-size: 2rem;
     width: 80%;
@@ -301,12 +303,10 @@ a {
 
 .texto-infografia {
     width: 100%;
-    margin-top: 30px;
 }
 
 .texto-infografia p {
     text-align: center;
-    width: 80%;
     font-family: Montserrat, sans-serif;
     font-size: 1.8rem;
     padding: 30px 60px;
@@ -322,7 +322,7 @@ a {
 }
 
 .contenedor-mosaico{
-    padding: 50px;
+    padding: 20px 30px;
 }
 
 .swiffy-slider {
@@ -345,9 +345,7 @@ a {
 #mosaico{
     width: 100%;
 }
-@media (max-width: 1200px) {
 
-}
 
 @media (max-width: 1200px) {
     .button-firma-ya {
@@ -394,6 +392,14 @@ a {
     }
 }
 
+@media (max-width: 840px) {
+    .contenedor-links-ul-li-a-menu {
+        font-size: 1rem;
+    }
+    .logo {
+        height: 35px;
+    }
+}
 
 @media (max-width: 768px) {
 
@@ -475,6 +481,7 @@ a {
     .swiffy-slider {
         display: block ;
     }
+    
 }
 
 
@@ -586,13 +593,12 @@ a {
     .swiffy-slider {
         width: auto;
     }
-
 }
 
 footer {
     background-color: rgb(97, 49, 138);
     width: 100%;
-    height: 274px;
+    height: 279px;
 }
 
 .logo-footer {
