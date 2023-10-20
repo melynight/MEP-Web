@@ -19,7 +19,7 @@ document.addEventListener('click', (e) => {
 
 
 contenedorImg.addEventListener('click', (e) => {
-            window.open('https://drive.google.com/file/d/14BJRo-4ccJtPsZRs3VefswFfxTZDFfxV/view?usp=sharing', '_blank');
+            window.open('http://bit.ly/pacto-dei-mep', '_blank');
 });
 
 mosaico.addEventListener('click', (e) => {

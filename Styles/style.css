@@ -323,6 +323,12 @@ a {
 
 .contenedor-mosaico{
     padding: 20px 30px;
+
+}
+.contenedor-mosaico:hover{
+   
+    cursor: pointer;
+
 }
 
 .swiffy-slider {
